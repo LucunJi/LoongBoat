@@ -19,7 +19,7 @@ jobs:
 
       - name: Update Dependencies
         id: depup
-        uses: LucunJi/mc-depup@v0.0.1
+        uses: LucunJi/mc-depup@v1
         with:
           update_mc_patch: false
           update_only_with_mc: false
