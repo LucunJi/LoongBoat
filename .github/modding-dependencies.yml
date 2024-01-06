@@ -1,0 +1,17 @@
+# Forge
+- repository: https://maven.minecraftforge.net/
+  groupId: net.minecraftforge
+  artifactId: forge
+  version: "${mcVersion}-#.#.#"
+  variables:
+    - forge_version: version
+
+# GeckoLib (Forge)
+- repository: https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/
+  groupId: software.bernie.geckolib
+  artifactId: geckolib-forge-${mcVersion}
+  version: "#.#.#"
+  variables:
+    - geckolib_artifact: artifactId
+    - geckolib_version: version
+
